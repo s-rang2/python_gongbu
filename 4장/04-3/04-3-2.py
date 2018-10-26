@@ -1,0 +1,5 @@
+comment = input("저장할 내용을 입력하세요: ")
+f1= open("test.txt", 'a')
+f1.write(comment)
+f1.write("\n")
+f1.close()
